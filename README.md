@@ -34,7 +34,7 @@
 ### 快速开始
 ```bash
 # 下载并运行脚本
-curl -sL https://raw.githubusercontent.com/qianyianyi/website-blocker/main/website-blocker.sh | sudo bash
+bash -c "$(curl -sL https://raw.githubusercontent.com/qianyianyi/website-blocker/main/website-blocker.sh)"
 
 # 或者克隆仓库后运行
 git clone https://github.com/qianyianyi/website-blocker.git
