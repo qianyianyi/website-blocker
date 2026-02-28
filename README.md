@@ -37,9 +37,9 @@
 bash -c "$(curl -sL https://raw.githubusercontent.com/qianyianyi/website-blocker/master/website-blocker.sh)"
 
 # 或者克隆仓库后运行
-git clone https://github.com/qianyianyi/website-blocker.git
-cd website-blocker
-sudo bash website-blocker.sh
+curl -sL https://raw.githubusercontent.com/qianyianyi/website-blocker/master/website-blocker.sh
+chmod +x website-blocker.sh
+bash website-blocker.sh
 ```
 
 ### 直接命令使用
